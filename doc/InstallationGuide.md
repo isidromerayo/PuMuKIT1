@@ -54,7 +54,7 @@ The installation process is described for a standard Debian distribution with ad
 
 	>$ mysql -u root -p <<EOF   
 	>CREATE DATABASE pumukit DEFAULT CHARACTER SET utf8;  
-	>GRANT ALL PRIVILEGES ON pumukit.* TO "pmk_user"@"localhost" IDENTIFIED BY "pmk_password";  
+	>GRANT ALL PRIVILEGES ON pumukit18.* TO "pmk_user"@"localhost" IDENTIFIED BY "pmk_password";  
 	>FLUSH PRIVILEGES;  
 	>EOF
 
